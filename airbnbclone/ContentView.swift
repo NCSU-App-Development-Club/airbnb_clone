@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Hello, world!")
                 .fontWeight(.semibold)
                 .font(.title)
+                .padding()
         }
         .padding()
     }
